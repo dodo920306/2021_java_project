@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CreateNewAccountController">
+   <children>
+      <Label layoutX="35.0" layoutY="101.0" prefHeight="98.0" prefWidth="529.0" style="-fx-background-color: black;" text="You just type in a new account. Do you want to continue to create it?" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="sure" layoutX="361.0" layoutY="220.0" mnemonicParsing="false" onAction="#sure" style="-fx-background-color: black;" text="Sure." textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="138.0" layoutY="220.0" mnemonicParsing="false" onAction="#nope" style="-fx-background-color: black;" text="Nope." textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

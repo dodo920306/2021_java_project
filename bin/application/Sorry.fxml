@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="1023.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SorryController">
+   <children>
+      <Label layoutX="85.0" layoutY="105.0" text="非常抱歉，您所點擊的這項功能目前仍在" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="66.0" text="親愛的使用者您好：" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="137.0" text="施工中哦！歡迎匯款至以下帳戶以支持後續開" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="169.0" text="發：" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="224.0" text="行號：700" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="60.0" layoutY="256.0" text="帳號：0002123 0188480" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="316.0" text="或FB搜尋：朱祐麟(或直接點擊      )，聯" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="40.0" fitWidth="41.0" layoutX="404.0" layoutY="312.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@新LOGO細節.jpg" />
+         </image></ImageView>
+      <Label layoutX="36.0" layoutY="348.0" text="繫並支持開發者。" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="642.0" layoutY="66.0" text="附上一張卯咪圖表示歉意。" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="359.0" fitWidth="394.0" layoutX="589.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@qJeWn6KckaSeraQ.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="returnMenu" layoutX="756.0" layoutY="446.0" mnemonicParsing="false" onAction="#returnToMenu" style="-fx-background-color: black; -fx-border-color: white;" text="返回" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="404.0" layoutY="312.0" mnemonicParsing="false" onAction="#rick" opacity="0.0" prefHeight="40.0" prefWidth="42.0" text="Button" />
+   </children>
+</AnchorPane>

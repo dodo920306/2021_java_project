@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="505.0" prefWidth="643.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ChordListController">
+   <children>
+      <Label layoutX="203.0" layoutY="58.0" text="Choose a root." textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="c" layoutX="68.0" layoutY="177.0" mnemonicParsing="false" onAction="#c" style="-fx-background-color: black;" text="C" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="203.0" layoutY="177.0" mnemonicParsing="false" onAction="#d" style="-fx-background-color: black;" text="D" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="338.0" layoutY="177.0" mnemonicParsing="false" onAction="#e" style="-fx-background-color: black;" text="E" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="498.0" layoutY="177.0" mnemonicParsing="false" onAction="#f" style="-fx-background-color: black;" text="F" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="203.0" layoutY="340.0" mnemonicParsing="false" onAction="#a" style="-fx-background-color: black;" text="A" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="338.0" layoutY="340.0" mnemonicParsing="false" onAction="#b" style="-fx-background-color: black;" text="B" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button mnemonicParsing="false" onAction="#returnMenu" style="-fx-background-color: black;" text="↺" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="68.0" layoutY="340.0" mnemonicParsing="false" onAction="#g" style="-fx-background-color: black;" text="G" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="624.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Chord">
+   <children>
+      <Label layoutX="139.0" layoutY="27.0" text="Choose a chord." textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="48.0" />
+         </font>
+      </Label>
+      <Button layoutX="1.0" mnemonicParsing="false" onAction="#returnToMenu" style="-fx-background-color: black;" text="↺" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="major" layoutX="41.0" layoutY="150.0" mnemonicParsing="false" onAction="#major" style="-fx-background-color: black;" text="major" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="176.0" layoutY="150.0" mnemonicParsing="false" onAction="#major7" style="-fx-background-color: black;" text="major7" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="326.0" layoutY="150.0" mnemonicParsing="false" onAction="#minor" style="-fx-background-color: black;" text="minor" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="456.0" layoutY="150.0" mnemonicParsing="false" onAction="#minor7" style="-fx-background-color: black;" text="minor7" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="71.0" layoutY="320.0" mnemonicParsing="false" onAction="#seven" style="-fx-background-color: black;" text="7" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="191.0" layoutY="320.0" mnemonicParsing="false" onAction="#sus4" style="-fx-background-color: black;" text="sus4" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="327.0" layoutY="320.0" mnemonicParsing="false" onAction="#add9" style="-fx-background-color: black;" text="add9" textFill="WHITE">
+         <font>
+            <Font name="Papyrus" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

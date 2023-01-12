@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="695.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CalculatorController">
+   <children>
+      <Button fx:id="ac" focusTraversable="false" layoutX="330.0" layoutY="158.0" mnemonicParsing="false" onAction="#ac" style="-fx-background-color: gainsboro; -fx-background-radius: 3em;" text="AC">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="ce" focusTraversable="false" layoutX="428.0" layoutY="158.0" mnemonicParsing="false" onAction="#ce" style="-fx-background-color: gainsboro; -fx-background-radius: 3em;" text="CE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="backspace" alignment="CENTER" focusTraversable="false" layoutX="524.0" layoutY="158.0" mnemonicParsing="false" onAction="#backspace" prefHeight="44.0" prefWidth="62.0" style="-fx-background-color: gainsboro; -fx-background-radius: 3em;" text="&lt;-">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="eight" focusTraversable="false" layoutX="435.0" layoutY="370.0" mnemonicParsing="false" onAction="#eight" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="8" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="two" focusTraversable="false" layoutX="435.0" layoutY="227.0" mnemonicParsing="false" onAction="#two" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="2" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="three" focusTraversable="false" layoutX="532.0" layoutY="227.0" mnemonicParsing="false" onAction="#three" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="3" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="five" focusTraversable="false" layoutX="435.0" layoutY="301.0" mnemonicParsing="false" onAction="#five" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="5" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="foul" focusTraversable="false" layoutX="338.0" layoutY="301.0" mnemonicParsing="false" onAction="#four" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="4" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="seven" focusTraversable="false" layoutX="338.0" layoutY="370.0" mnemonicParsing="false" onAction="#seven" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="7" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="one" focusTraversable="false" layoutX="338.0" layoutY="227.0" mnemonicParsing="false" onAction="#one" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="1" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="six" focusTraversable="false" layoutX="532.0" layoutY="301.0" mnemonicParsing="false" onAction="#six" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="6" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="nine" focusTraversable="false" layoutX="532.0" layoutY="370.0" mnemonicParsing="false" onAction="#nine" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="9" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="divide" focusTraversable="false" layoutX="610.0" layoutY="158.0" mnemonicParsing="false" onAction="#divide" prefHeight="44.0" prefWidth="46.0" style="-fx-background-color: goldenrod; -fx-background-radius: 5em;" text="/">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="multi" focusTraversable="false" layoutX="610.0" layoutY="227.0" mnemonicParsing="false" onAction="#mutli" style="-fx-background-color: goldenrod; -fx-background-radius: 5em;" text="*">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="minus" focusTraversable="false" layoutX="610.0" layoutY="301.0" mnemonicParsing="false" onAction="#minus" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: goldenrod; -fx-background-radius: 5em;" text="-">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="zero" focusTraversable="false" layoutX="435.0" layoutY="437.0" mnemonicParsing="false" onAction="#zero" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="0" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="add" focusTraversable="false" layoutX="610.0" layoutY="370.0" mnemonicParsing="false" onAction="#add" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: goldenrod; -fx-background-radius: 5em;" text="+">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="dot" focusTraversable="false" layoutX="532.0" layoutY="437.0" mnemonicParsing="false" onAction="#dot" prefHeight="44.0" prefWidth="46.0" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="." textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="equal" focusTraversable="false" layoutX="610.0" layoutY="437.0" mnemonicParsing="false" onAction="#equal" prefHeight="44.0" prefWidth="45.0" style="-fx-background-color: goldenrod; -fx-background-radius: 5em;" text="=">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="answer" alignment="CENTER_RIGHT" layoutX="8.0" layoutY="82.0" prefHeight="76.0" prefWidth="680.0" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="48.0" />
+         </font>
+      </Label>
+      <Label fx:id="entry" alignment="CENTER_RIGHT" layoutX="461.0" layoutY="29.0" prefHeight="32.0" prefWidth="215.0" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="one1" focusTraversable="false" layoutX="229.0" layoutY="227.0" mnemonicParsing="false" onAction="#ta" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="tan" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="one2" focusTraversable="false" layoutX="241.0" layoutY="158.0" mnemonicParsing="false" onAction="#deSpuare" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="√" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="upsidedown" focusTraversable="false" layoutX="237.0" layoutY="301.0" mnemonicParsing="false" onAction="#level" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="x!" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="seven1" focusTraversable="false" layoutX="236.0" layoutY="370.0" mnemonicParsing="false" onAction="#power" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="xⁿ" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="e" focusTraversable="false" layoutX="242.0" layoutY="437.0" mnemonicParsing="false" onAction="#e" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="e" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="radButton" focusTraversable="false" layoutX="130.0" layoutY="158.0" mnemonicParsing="false" onAction="#rad" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="Rad" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="deg" layoutX="43.0" layoutY="29.0" prefHeight="32.0" prefWidth="62.0" text="Deg" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="co" focusTraversable="false" layoutX="133.0" layoutY="227.0" mnemonicParsing="false" onAction="#co" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="cos" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="one13" focusTraversable="false" layoutX="134.0" layoutY="301.0" mnemonicParsing="false" onAction="#brotherLow" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="log" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="rightBracket" focusTraversable="false" layoutX="149.0" layoutY="370.0" mnemonicParsing="false" onAction="#right" style="-fx-background-color: gray; -fx-background-radius: 5em;" text=")" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="π" focusTraversable="false" layoutX="144.0" layoutY="437.0" mnemonicParsing="false" onAction="#π" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="π" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="one13111" focusTraversable="false" layoutX="40.0" layoutY="437.0" mnemonicParsing="false" onAction="#absolutelyWorthIt" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="|x|" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="one132" focusTraversable="false" layoutX="48.0" layoutY="301.0" mnemonicParsing="false" onAction="#ln" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="ln" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="si" focusTraversable="false" layoutX="42.0" layoutY="227.0" mnemonicParsing="false" onAction="#si" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="sin" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="turn" focusTraversable="false" layoutX="53.0" layoutY="158.0" mnemonicParsing="false" onAction="#turn" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="↺" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="leftBracket" focusTraversable="false" layoutX="55.0" layoutY="370.0" mnemonicParsing="false" onAction="#left" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="(" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="e1" focusTraversable="false" layoutX="327.0" layoutY="437.0" mnemonicParsing="false" onAction="#pa" style="-fx-background-color: gray; -fx-background-radius: 5em;" text="arc" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="arc" alignment="CENTER" contentDisplay="CENTER" layoutX="42.0" layoutY="61.0" prefHeight="20.0" prefWidth="46.0" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Heavy" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
